@@ -29,7 +29,7 @@ public class LoginActivity extends AppCompatActivity {
 
     TextView textViewRegisterNow;
     TextInputEditText textInputEditTextEmail, textInputEditTextPassword;
-    Button buttonSubmit;
+    Button buttonSubmit, buttonRevealPassword;
     String name, email, password, apiKey;
     TextView textViewError;
     ProgressBar progressBar;
@@ -55,7 +55,7 @@ public class LoginActivity extends AppCompatActivity {
             finish();
         }
 
-        buttonSubmit.setOnClickListener(new View.OnClickListener() {
+            buttonSubmit.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 progressBar.setVisibility(View.VISIBLE);
