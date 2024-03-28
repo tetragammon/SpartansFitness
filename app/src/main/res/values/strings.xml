@@ -14,4 +14,5 @@
     <string name="logout">LogOut</string>
     <string name="email">Email</string>
     <string name="fetch_user">Fetch User</string>
+    <string name="already_have_an_account_click_here_to_login">Already have an account? Click here to login!</string>
 </resources>
